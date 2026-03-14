@@ -1,4 +1,4 @@
-const whois = require("node-whois");
+const whois = require("whois");
 const { whois: whoisConfig } = require("../config");
 const logger = require("../utils/logger");
 
