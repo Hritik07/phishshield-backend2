@@ -19,7 +19,7 @@ app.use(helmet());
 // CORS – allow only the Chrome extension origin
 app.use(
   cors({
-    origin: process.env.ALLOWED_ORIGIN || "chrome-extension://*",
+     origin: "*", //process.env.ALLOWED_ORIGIN || "chrome-extension://*",
     methods: ["GET", "POST"],
   })
 );
